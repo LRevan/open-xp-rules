@@ -1,0 +1,4 @@
+Description: ''
+EventDescriptions:
+    - LocalizationId: 'corrname_Possible_ntlm_smb_dump'
+      EventDescription: 'Обнаружена потенциальная попытка создания ETW-сессии на узле'
