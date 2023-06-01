@@ -3,6 +3,15 @@ ContentAutoName: Possible_ntlm_smb_dump
 ExpertContext:
     Created: 01.06.2023
     Updated: 01.06.2023
+    KnowledgeHolders:
+        - Roman Berzhanskiy
+    Falsepositives:
+        - Возможны на текущей стадии
 EventDescriptions:
     - Criteria: correlation_name = "Possible_ntlm_smb_dump"
       LocalizationId: corrname_Possible_ntlm_smb_dump
+ContentRelations:
+    Implements:
+        ATTACK:
+            TA0006:
+                - T1003
