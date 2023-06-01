@@ -41,7 +41,7 @@ emit {
 
     $subject = "process"
     $action = "create"
-    $object = "ETW Backup"
+    $object = "file"
     $status = "success"
 
     $importance = "medium"
